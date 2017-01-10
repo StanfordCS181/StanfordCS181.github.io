@@ -8,3 +8,6 @@ install:
 
 script:
   - html5validator --root .
+
+notifications:
+  slack: keithw:IfPSAk5RVX3yazIuJmNXFvpE
