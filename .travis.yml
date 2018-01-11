@@ -10,5 +10,6 @@ script:
   - html5validator --root .
 
 notifications:
-webhooks:
-- https://snr.zulipchat.com/api/v1/external/travis?stream=cs181&topic=website&api_key=WtywO4mJ77FMN0HYebZIt4KYB23uNVcT
+  email: false
+  webhooks:
+    - https://snr.zulipchat.com/api/v1/external/travis?stream=cs181&topic=website&api_key=WtywO4mJ77FMN0HYebZIt4KYB23uNVcT
